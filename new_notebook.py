@@ -21,3 +21,17 @@ def pressure(x):
         print("New Pressure detected")
     else:
         print("Use Barometer or other device to measure")
+
+
+
+def temperature(x):
+    if x > 4000:
+        print("Temp of Sun")
+
+    elif x <= 4000 and x > 2000:
+        print("Temp of Hydrogen Bomb")
+
+    else:
+        print("Measurable Temp")
+
+temperature(10000)
