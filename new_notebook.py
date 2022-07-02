@@ -28,9 +28,10 @@ def temperature(x):
     if x > 4000:
         print("Temp of Sun")
 
-    elif x <= 4000 and x > 2000:
+    elif 4000 >= x > 2000:
         print("Temp of Hydrogen Bomb")
-
+    elif x < 0:
+        print("Temp of South & North poles")
     else:
         print("Measurable Temp")
 
