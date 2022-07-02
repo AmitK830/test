@@ -21,3 +21,13 @@ def pressure(x):
         print("New Pressure detected")
     else:
         print("Use Barometer or other device to measure")
+
+
+def volume(x):
+    try:
+        if x > 1000:
+            print("More than 1 liter")
+        else:
+            print("Need some device to measure")
+    except ValueError:
+        print("Invalid value of the volume")
