@@ -15,7 +15,9 @@ def subzero(x):
 def pressure(x):
     if x > 1000:
         print("Atmospheric pressure")
+
     elif x < 0:
         print("Vacuum Pressure")
+        print("New Pressure detected")
     else:
         print("Use Barometer or other device to measure")
