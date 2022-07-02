@@ -23,6 +23,7 @@ def pressure(x):
         print("Use Barometer or other device to measure")
 
 
+<<<<<<< HEAD
 def volume(x):
     try:
         if x > 1000:
@@ -31,3 +32,18 @@ def volume(x):
             print("Need some device to measure")
     except ValueError:
         print("Invalid value of the volume")
+=======
+
+def temperature(x):
+    if x > 4000:
+        print("Temp of Sun")
+
+    elif 4000 >= x > 2000:
+        print("Temp of Hydrogen Bomb")
+    elif x < 0:
+        print("Temp of South & North poles")
+    else:
+        print("Measurable Temp")
+
+temperature(10000)
+>>>>>>> new_dev
